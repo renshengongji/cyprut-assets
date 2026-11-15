@@ -1,11 +1,22 @@
 {
-  "description": "Shuttlecock trail effect",
   "author": "waneone",
+  "localizations": {
+    "en-US": {
+      "name": "Shuttle Trail",
+      "description": "Adds a motion trail to the shuttle."
+    },
+    "zh-Hans": {
+      "name": "羽毛球拖尾",
+      "description": "给羽毛球添加运动拖尾。"
+    }
+  },
   "versions": [
     {
       "file": "2.0.0.zip",
       "version": "2.0.0",
-      "supportedVersions": ["1.3.2"]
+      "supportedVersions": [
+        "1.3.2"
+      ]
     }
   ]
 }
