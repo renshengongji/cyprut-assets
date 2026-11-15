@@ -1,12 +1,21 @@
 ﻿{
-    "description": "滚木",
     "author": "renshengongji",
     "path": "Cyprut\\",
     "versions": [
         {
             "file": "1.6.0.zip",
             "version": "1.6.0",
-            "supportedVersions": ["1.3.2"],
+            "supportedVersions": ["1.3.2"]
         }
-    ]
+    ],
+    "localizations": {
+        "en-US": {
+            "name": "Cyprut",
+            "description": "a many features mod menu"
+        },
+        "zh-Hans": {
+            "name": "Cyprut",
+            "description": "一个什么东西都塞了进去的模组菜单"
+        }
+    }
 }
