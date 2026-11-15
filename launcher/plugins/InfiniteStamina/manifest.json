@@ -1,0 +1,11 @@
+{
+  "description": "无限体力. C for your side, V for opponent",
+  "author": "waneone",
+  "versions": [
+    {
+      "file": "2.0.0.zip",
+      "version": "2.0.0",
+      "supportedVersions": ["1.3.2"]
+    }
+  ]
+}
