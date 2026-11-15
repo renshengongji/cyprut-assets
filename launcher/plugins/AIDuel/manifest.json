@@ -1,13 +1,22 @@
 {
-    "description":  "AI 自动对战",
-    "author":  "waneone",
-    "versions":  [
-                     {
-                         "file":  "2.0.0.zip",
-                         "version":  "2.0.0",
-                         "supportedVersions":  [
-                                                   "1.3.2"
-                                               ]
-                     }
-                 ]
+  "author": "waneone",
+  "localizations": {
+    "en-US": {
+      "name": "AI Duel",
+      "description": "Watch AI-controlled players play against each other."
+    },
+    "zh-Hans": {
+      "name": "AI 对决",
+      "description": "让双方都由 AI 控制，自动对战。"
+    }
+  },
+  "versions": [
+    {
+      "file": "2.0.0.zip",
+      "version": "2.0.0",
+      "supportedVersions": [
+        "1.3.2"
+      ]
+    }
+  ]
 }
