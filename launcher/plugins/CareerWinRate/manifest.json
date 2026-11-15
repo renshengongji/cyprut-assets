@@ -1,11 +1,22 @@
 {
-  "description": "View career player win rates",
   "author": "waneone",
+  "localizations": {
+    "en-US": {
+      "name": "Career Win Rate",
+      "description": "Shows win rate in career player records."
+    },
+    "zh-Hans": {
+      "name": "生涯胜率",
+      "description": "在生涯的球员战绩里查看胜率。"
+    }
+  },
   "versions": [
     {
       "file": "2.0.0.zip",
       "version": "2.0.0",
-      "supportedVersions": ["1.3.2"]
+      "supportedVersions": [
+        "1.3.2"
+      ]
     }
   ]
 }
