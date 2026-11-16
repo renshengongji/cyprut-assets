@@ -1,0 +1,16 @@
+{
+  "author": "waneone",
+  "localizations": {
+    "en-US": {
+      "name": "Hawk-Eye Review",
+      "description": "BWF-accurate line calls with instant review, challenge and replay."
+    },
+    "zh-Hans": {
+      "name": "鹰眼挑战",
+      "description": "BWF 口径的落点判定，挑战改判 + 慢动作回放。"
+    }
+  },
+  "versions": [
+    { "file": "7.3.0.zip", "version": "7.3.0", "supportedVersions": ["1.3.2"] }
+  ]
+}
