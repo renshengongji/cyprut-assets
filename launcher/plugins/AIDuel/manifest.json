@@ -1,22 +1,25 @@
 {
-  "author": "waneone",
-  "localizations": {
-    "en-US": {
-      "name": "AI Duel",
-      "description": "Watch AI-controlled players play against each other."
-    },
-    "zh-Hans": {
-      "name": "AI 对决",
-      "description": "让双方都由 AI 控制，自动对战。"
+    "author": "waneone",
+    "versions": [
+        {
+            "file": "2.1.0.zip",
+            "version": "2.1.0",
+            "supportedVersions": ["1.3.2"]
+        },
+        {
+            "file": "2.0.0.zip",
+            "version": "2.0.0",
+            "supportedVersions": ["1.3.2"]
+        }
+    ],
+    "localizations": {
+        "en-US": {
+            "name": "AI Duel",
+            "description": "AI vs AI exhibition matches: 63 real players, flag-coloured kits, singles/doubles, and a mode where you play one side."
+        },
+        "zh-Hans": {
+            "name": "AI 对决",
+            "description": "双方都由 AI 控制自动对战：63 名真实球员、国旗配色球衣、单打/双打，以及玩家亲自上场的普通模式。"
+        }
     }
-  },
-  "versions": [
-    {
-      "file": "2.0.0.zip",
-      "version": "2.0.0",
-      "supportedVersions": [
-        "1.3.2"
-      ]
-    }
-  ]
 }
