@@ -1,22 +1,30 @@
 {
-  "author": "waneone",
-  "localizations": {
-    "en-US": {
-      "name": "Infinite Stamina",
-      "description": "Unlimited stamina."
-    },
-    "zh-Hans": {
-      "name": "无限体力",
-      "description": "使体力无限。"
+    "author": "waneone",
+    "path": "BepInEx\\plugins\\",
+    "versions": [
+        {
+            "file": "2.1.0.zip",
+            "version": "2.1.0",
+            "supportedVersions": [
+                "1.3.2"
+            ]
+        },
+        {
+            "file": "2.0.0.zip",
+            "version": "2.0.0",
+            "supportedVersions": [
+                "1.3.2"
+            ]
+        }
+    ],
+    "localizations": {
+        "en-US": {
+            "name": "Infinite Stamina",
+            "description": "Unlimited stamina (C self / V opponent). F forces aggressive mode on opponents and on your doubles partner. Offline only."
+        },
+        "zh-Hans": {
+            "name": "无限体力",
+            "description": "体力无限（C 我方 / V 敌方）；F 强制敌方与双打队友进入激进模式。仅离线可用。"
+        }
     }
-  },
-  "versions": [
-    {
-      "file": "2.0.0.zip",
-      "version": "2.0.0",
-      "supportedVersions": [
-        "1.3.2"
-      ]
-    }
-  ]
 }
