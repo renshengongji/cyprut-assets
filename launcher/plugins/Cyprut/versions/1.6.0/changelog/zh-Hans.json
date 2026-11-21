@@ -1,3 +1,6 @@
 {
+  "added": ["test add"],
+  "fixed": ["test fix"],
+  "changed": ["test change"],
   "removed": ["移除了HIM"]
 }
