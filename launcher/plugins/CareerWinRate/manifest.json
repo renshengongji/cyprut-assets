@@ -9,14 +9,5 @@
       "name": "生涯胜率",
       "description": "在生涯的球员战绩里查看胜率。"
     }
-  },
-  "versions": [
-    {
-      "file": "2.0.0.zip",
-      "version": "2.0.0",
-      "supportedVersions": [
-        "1.3.2"
-      ]
-    }
-  ]
+  }
 }

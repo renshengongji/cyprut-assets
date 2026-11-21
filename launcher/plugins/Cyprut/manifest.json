@@ -1,13 +1,6 @@
 ﻿{
     "author": "renshengongji",
     "path": "Cyprut\\",
-    "versions": [
-        {
-            "file": "1.6.0.zip",
-            "version": "1.6.0",
-            "supportedVersions": ["1.3.2"]
-        }
-    ],
     "localizations": {
         "en-US": {
             "name": "Cyprut",
