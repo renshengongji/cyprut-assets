@@ -1,0 +1,6 @@
+{
+    "added": ["Hawk-eye is now fully disabled in online matches: no line calls, no challenge prompt, no replay, no overlay"],
+    "fixed": ["Challenge prompt and replay still appeared during online matches", "Balls landing on the line were called out in some cases"],
+    "changed": ["IN tolerance is now the cork radius, so the shuttle is in as soon as the cork touches the line", "Landing point is derived from a ballistic fit of the last 8 tracked samples instead of the final sample"],
+    "removed": ["Redundant ground judgement ring that duplicated the landing marker"]
+}
