@@ -1,5 +1,5 @@
 {
-  "added": ["test add"],
+  "added": ["test add", "请输入文本"],
   "fixed": ["test fix"],
   "changed": ["test change"],
   "removed": ["移除了HIM"]
