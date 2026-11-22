@@ -1,0 +1,23 @@
+{
+    "added": [
+        "Career five-stat panel (defense / power / precision / speed / stamina) with five one-click playstyle presets",
+        "Save and delete custom presets (BepInEx/config/CareerStats/custom.json)",
+        "Esc closes the panel; A / D adjusts the focused stat directly",
+        "One-click unlock of all outfits (tops / bottoms / shoes / rackets) and clears the appearance badge",
+        "WASD works as arrow keys in menus and lists (character select, outfit select, etc.)"
+    ],
+    "fixed": [
+        "Game UI input was not restored after closing the panel: recovery read a null reference, leaving WASD / Enter dead for the whole session",
+        "Focus jumped to the wrong item: S on the button row wrapped back to the top, S on the last stat landed on Undo",
+        "The appearance badge stayed visible after using unlock-all"
+    ],
+    "changed": [
+        "UI restyled to match the game: flat white panels, square corners, no glow, no rainbow bars",
+        "Stat adjustment moved from Q / E to A / D",
+        "Panel is now truly modal by temporarily disabling the game's InputActions, so the UI behind no longer reacts"
+    ],
+    "removed": [
+        "Removed Q / E adjustment",
+        "Removed the old EventSystem-disabling approach"
+    ]
+}

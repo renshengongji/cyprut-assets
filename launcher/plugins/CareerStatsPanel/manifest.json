@@ -1,0 +1,13 @@
+{
+    "author": "waneone",
+    "localizations": {
+        "en-US": {
+            "name": "Career Stats Panel",
+            "description": "Career-mode stat editor: five playstyle presets, custom presets, one-click unlock of all outfits"
+        },
+        "zh-Hans": {
+            "name": "生涯数值面板",
+            "description": "生涯模式中f3打开面板，面板：五套打法预设、自定义预设、一键解锁全部外观"
+        }
+    }
+}
