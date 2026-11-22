@@ -1,0 +1,9 @@
+{
+  "added": [
+    "Launcher checks for asset changes every 30 seconds while running and refreshes available plugin versions without installing them.",
+    "Launcher checks for its own updates automatically. You can also check from the About tab. Confirming an update closes the game and restarts Launcher."
+  ],
+  "changed": [
+    "Launcher release notes are loaded from the update feed instead of being included in the ZIP."
+  ]
+}
