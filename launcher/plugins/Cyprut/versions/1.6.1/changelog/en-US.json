@@ -1,0 +1,10 @@
+﻿{
+    "added": [
+        "player automatic (cancel shot intent when predict the out)",
+        "trajectory renderer side condition (self, partner and opponent, default 0 selected, so not rendering default)",
+        "achievements unlock (just spoof the game, will restore when disable, steam and career)"
+    ],
+    "fixed": [
+        "multicombosetting name position"
+    ]
+}
