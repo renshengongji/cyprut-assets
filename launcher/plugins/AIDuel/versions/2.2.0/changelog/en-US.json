@@ -1,0 +1,28 @@
+{
+    "added": [
+        "Everything is set on one screen: court, games per match, points per game, difficulty, game speed, movement assist and shuttle trail all moved to the left-hand Match Settings column and are adjusted with the arrow buttons, and Start Duel launches the match directly",
+        "Court preview using the game's own venue artwork; the image changes as soon as the court is switched",
+        "The picker is fully mouse-driven: click a row to pick a player and click again to deselect, switch Singles/Doubles and AI Duel/Normal Mode at the top right, filter with the Country button, and use Undo Last / Back / Start Duel at the bottom; the cursor appears automatically on entry",
+        "All 63 players' heights are corrected against real data and their models are scaled to real height, bypassing the game's built-in plus or minus 2 cm limit with matching capsule collider compensation so the visible height and the hittable height agree",
+        "Venue completion: at match start the stand meshes and spectators from the side that has stands are rotated 180 degrees around the court centre and mirrored, so the opposite side and both ends get stands too and the free camera no longer looks into a black void",
+        "New config option [Visual] MirrorStands to turn venue completion off"
+    ],
+    "fixed": [
+        "Mouse wheel could not scroll the roster: the follow-cursor interpolation kept pulling the list back",
+        "Unresolved class names were cached permanently, so features stayed inactive until the game was restarted when the game assembly loaded slightly late",
+        "_matchPending was not reset after a match, leaving the Normal Mode toggle stuck on the previous match's state",
+        "Playing a hide animation on an inactive panel left a coroutine alive past the scene unload and threw NullReferenceException",
+        "MainMenuManager.ome was not reset, so starting a second match from the same main menu failed silently",
+        "Entering AI Duel forced the shuttle trail to Disabled, overriding the choice made in the picker",
+        "Old code cleared the standby state as soon as the MainMenu scene appeared during match start, so the free camera, forced AI and cheat toggles inside the match never actually took effect"
+    ],
+    "changed": [
+        "Start Duel no longer enters the game's own pre-match page, so the two overlapping pages seen when coming through Play -> Select Player are gone",
+        "Player scaling no longer depends on the game's plus or minus 2 cm limit; models use real heights with the colliders compensated to match",
+        "Hide-stands is replaced with stand completion, on by default; a match adds 75 seat meshes and 546 spectators with no measurable frame-rate cost"
+    ],
+    "removed": [
+        "Keyboard and gamepad control in the picker: only Z (open the picker) and Esc (fallback back) remain, and gamepads no longer work on that screen",
+        "Removed the old hide-stands approach"
+    ]
+}
