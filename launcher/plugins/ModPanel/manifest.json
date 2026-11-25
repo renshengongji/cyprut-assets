@@ -1,0 +1,13 @@
+{
+    "author": "waneone",
+    "localizations": {
+        "en-US": {
+            "name": "MOD Panel",
+            "description": "In-game MOD panel: lists loaded mods with their versions, DLLs, GUIDs and hotkeys, plus a live keyboard map that highlights keys and shows what each one does."
+        },
+        "zh-Hans": {
+            "name": "MOD 面板",
+            "description": "游戏内 MOD 面板：列出已加载 mod 的版本、DLL、GUID 和各自快捷键，并用键盘图实时高亮按键、显示每个键的功能。"
+        }
+    }
+}

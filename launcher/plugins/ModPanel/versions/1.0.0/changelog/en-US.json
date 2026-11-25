@@ -1,0 +1,18 @@
+{
+    "added": [
+        "In-game MOD panel (F2 to toggle, Tab to switch pages): the mod list shows every loaded mod's name, version, DLL, GUID and hotkeys, read-only",
+        "Keyboard map draws your layout and highlights keys live; click a mod pill to show only that mod's keys, or hold a key to see what it does",
+        "New layout button column on the right of the keyboard map (60 / 65 / 75 / TKL / 98 / 104); one click switches the layout and remembers it",
+        "Added the 98-key layout"
+    ],
+    "fixed": [
+        "Pressing Z / C / V / F6-F9 or another mod's hotkey while the panel was open could trigger that mod's UI"
+    ],
+    "changed": [
+        "While the panel is open, the other mods' plugins are paused, the game's input actions are disabled and Keyboard.current is patched to null; the panel's own key reading is unaffected",
+        "Keyboard layout is no longer auto-detected: it defaults to 104 and can be switched any time from the buttons on the right"
+    ],
+    "removed": [
+        "Removed the first-run layout chooser card"
+    ]
+}
